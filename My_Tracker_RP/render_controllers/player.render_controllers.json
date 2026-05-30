@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "render_controllers": {
+    "controller.render.player.first_person": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ]
+    },
+    "controller.render.player.third_person": {
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "query.has_tag('esp_on') ? Material.charged_creeper : Material.default" }
+      ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}

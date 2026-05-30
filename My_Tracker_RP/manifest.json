@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "벽 투과 크리퍼 오라 리소스 팩",
+    "name": "Tracker RP",
+    "uuid": "5f6e7d8c-9b0a-1f2e-3d4c-5b6a7f8e9d0c",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "description": "Tracker RP Module",
+      "type": "resources",
+      "uuid": "6f7e8d9c-0b1a-2f3e-4d5c-6b7a8f9e0d1c",
+      "version": [1, 0, 0]
+    }
+  ]
+}
